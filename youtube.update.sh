@@ -35,7 +35,7 @@ if [ ! -f $dnsmasqFile ]; then
 fi
 
 cp $ytHosts $workFile
-zgrep -e "reply.*-.*\.googlevideo.*\..*\..*\..*" $piLogs \
+zgrep -E "reply.r[0-9-]-*sn-[0-9a-z]{8}.googlevideo*|reply.r[0-9-]-*sn-[0-9a-z]{12}-[0-9a-z]{4}.googlevideo*|reply.*-.*\.googlevideo.*\..*\..*\..*" $piLogs \
     | awk -v fIP=$forceIP '{ print fIP, $6 }' >> $workFile
 
 sort -u $workFile -o $workFile
