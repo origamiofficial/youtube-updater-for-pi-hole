@@ -67,4 +67,8 @@ Avoid updating any official YouTube apps if possible.
 
 03 - Remove the script from wherever you saved it in Install.01
 
+## Credit
 
+This is a mirror of [grub's](https://gitlab.com/grublets) Gitlab [repo](https://gitlab.com/grublets/youtube-updater-for-pi-hole). All credit goes to him.
+
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/origamiofficial/youtube-updater-for-pi-hole&icon=github.svg&icon_color=%23FFFFFF&title=hits&edge_flat=false)](https://github.com/origamiofficial/youtube-updater-for-pi-hole)
