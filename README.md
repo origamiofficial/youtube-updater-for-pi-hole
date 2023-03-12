@@ -1,10 +1,10 @@
 # YouTube updater for Pi-hole
+## [⚠️ This project is no longer maintained]
 
-[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
-[![forthebadge](https://forthebadge.com/images/badges/check-it-out.svg)](https://forthebadge.com)
-[![forthebadge](https://forthebadge.com/images/badges/ctrl-c-ctrl-v.svg)](https://forthebadge.com)
-[![forthebadge](https://forthebadge.com/images/badges/powered-by-black-magic.svg)](https://forthebadge.com)
-[![forthebadge](https://forthebadge.com/images/badges/winter-is-coming.svg)](https://forthebadge.com)
+Pi-hole is only a DNS filter. That is, when a client asks for the 'address' of a name (a web domain, etc), it gives an answer but also filters
+those answers against the configured block lists. Pi-hole can do nothing with the content AT that address. A web browser can. It can inspect the
+payload of web requests and alter them on the fly because it made the request for the content not just where it was located. YouTube hosts its ads
+on the same domains as its content.
 
 Quick and dirty script that may help with YouTube ads.
 
